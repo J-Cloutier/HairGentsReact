@@ -14,26 +14,20 @@ function Foot() {
 
 				<Col md={5}>
 					{/* <h2 className="text-light">hey</h2> */}
-					<Form
-						name="contact"
-						method="post"
-						data-netlify="true"
-						onSubmit="submit"
-					>
-						
-						<input type="hidden" name="form-name" value="contact" />
+					<Form name="contact v2" method="post" data-netlify="true" onSubmit="submit">
+						<input type="hidden" name="form-name" value="contact v2" />
 						<Form.Group className="mb-3 text-light">
 							<Form.Label>Email address</Form.Label>
-							<Form.Control type="email" required placeholder="Enter email" />
+							<Form.Control type="email" required placeholder="Enter email" name="email" />
 						</Form.Group>
 
 						<Form.Group className="mb-3 text-light fs-4">
 							<Form.Label>Name</Form.Label>
-							<Form.Control type="text" required placeholder="Name" />
+							<Form.Control type="text" required placeholder="Name" name="Name" />
 						</Form.Group>
 						<Form.Group className="mb-3 text-light fs-4">
 							<Form.Label>Message</Form.Label>
-							<Form.Control as="textarea" required rows={3} />
+							<Form.Control as="textarea" required rows={3} name="Message" />
 						</Form.Group>
 						<Button variant="warning" type="submit">
 							Submit
