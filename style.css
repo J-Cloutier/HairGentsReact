@@ -1,0 +1,8 @@
+.hg{
+    font-family: 'Marck Script', cursive !important
+}
+
+.zoom:hover {
+	transform: scale(1.5);
+	transition: transform .2s ease-in-out;
+}
