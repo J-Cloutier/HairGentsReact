@@ -23,11 +23,11 @@ function Foot() {
 
 						<Form.Group className="mb-3 text-light fs-4">
 							<Form.Label>Name</Form.Label>
-							<Form.Control type="text" required placeholder="Name" name="Name" />
+							<Form.Control type="text" required placeholder="Name" name="name" />
 						</Form.Group>
 						<Form.Group className="mb-3 text-light fs-4">
 							<Form.Label>Message</Form.Label>
-							<Form.Control as="textarea" required rows={3} name="Message" />
+							<Form.Control as="textarea" required rows={3} name="message" />
 						</Form.Group>
 						<Button variant="warning" type="submit">
 							Submit
