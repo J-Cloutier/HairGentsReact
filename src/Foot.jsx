@@ -14,7 +14,7 @@ function Foot() {
 
 				<Col md={5}>
 					{/* <h2 className="text-light">hey</h2> */}
-					<Form data-netlify="true" method="POST">
+					<Form name="contact" data-netlify="true" method="POST">
 						<Form.Group className="mb-3 text-light" controlId="formBasicEmail">
 							<Form.Label>Email address</Form.Label>
 							<Form.Control type="email" placeholder="Enter email" />
