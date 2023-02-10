@@ -14,7 +14,7 @@ function Foot() {
 
 				<Col md={5}>
 					{/* <h2 className="text-light">hey</h2> */}
-					<Form name="contact" data-netlify="true" method="POST">
+					<Form name="contact" data-netlify="true" method="post" onSubmit="submit">
 						<input type="hidden" name="form-name" value="contact" />
 						<Form.Group className="mb-3 text-light" controlId="formBasicEmail">
 							<Form.Label>Email address</Form.Label>
@@ -33,6 +33,7 @@ function Foot() {
 							Submit
 						</Button>
 					</Form>
+			
 				</Col>
 			</Row>
 		</footer>
