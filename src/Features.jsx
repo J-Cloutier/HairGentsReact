@@ -9,7 +9,7 @@ function Features() {
 	});
 
 	return (
-		<Container className="portfolio">
+		<Container id="services">
 			<h1 class="display-3 text-dark text-end p-5 fw-bold">Services</h1>
 
 			<Row className="cards-list gap-3 justify-content-around">{cards}</Row>

@@ -10,7 +10,7 @@ function Hero() {
 		return () => window.removeEventListener("resize", updateDimensions);
 	}, []);
 
-	return <img src="./colorBanner.png" width={width} alt="" />;
+	return <img src="./colorBanner.png" id="home" width={width} alt="" />;
 }
 
 export default Hero

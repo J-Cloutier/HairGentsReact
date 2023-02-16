@@ -3,20 +3,19 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 
 function Navigatorbar() {
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
 			<Container>
-				<Navbar.Brand href="#home" className="hg fs-2">HG</Navbar.Brand>
+				<Navbar.Brand href="#home" className="hg fs-2">
+					HG
+				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="me-auto">
-						<Nav.Link href="#features">Home</Nav.Link>
-						<Nav.Link href="#pricing">Services</Nav.Link>
-					</Nav>
-					<Nav>
-						<Nav.Link href="#deets">Staff</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
-							Book
-						</Nav.Link>
+					<Nav className="ms-auto">
+						<Nav.Link href="#home">Home</Nav.Link>
+						<Nav.Link href="#services">Services</Nav.Link>
+
+						<Nav.Link href="#staff">Staff</Nav.Link>
+						<Nav.Link href="#contact">Book</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

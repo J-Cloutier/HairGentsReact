@@ -3,7 +3,7 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 
 function Foot() {
 	return (
-		<footer class="py-5 mt-5 bg-dark">
+		<footer class="py-5 mt-5 bg-dark" id="contact">
 			<Row>
 				<Col className="m-3" md={6}>
 					<h1 className="fs-1 text-light">Booking</h1>

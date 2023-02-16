@@ -9,7 +9,7 @@ function People() {
 	});
 
 	return (
-		<Container className="portfolio">
+		<Container id="staff">
 			<h1 class="display-3 text-dark p-5 fw-bold">Our Staff</h1>
 
 			<Row className="cards-list gap-3 justify-content-center">{cards}</Row>

@@ -6,7 +6,7 @@ import { SocialIcon } from "react-social-icons";
 function PeopleCard(props) {
 	return (
 		<Col md={3}>
-			<Card className="rounded-5 shadow border-0">
+			<Card className="rounded-2 shadow border-0">
 				<Card.Img className="rounded-5 p-4 portfolioImg" variant="top" src={props.img} />
 				<Card.Body>
 					<Card.Title>{props.name}</Card.Title>

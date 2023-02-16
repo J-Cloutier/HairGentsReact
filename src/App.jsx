@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Features />
       <People />
-      <Foot/>
+      <Foot />
     </div>
   )
 }
